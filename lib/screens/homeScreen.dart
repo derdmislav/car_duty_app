@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
           suffixIcon: AlertDialogWidget()),
       validator: (String value) {
         if (value.isEmpty) {
-          return 'Fill thise tile';
+          return 'Fill this tile';
         }
       },
       onChanged: (String value) {
@@ -200,7 +200,7 @@ class _HomeScreenState extends State<HomeScreen> {
     print(_carInfo.date);
     return Scaffold(
       appBar: AppBar(
-        title: Text('Unos auta'),
+        title: Text('Posebni porez uvoz auta'),
         actions: [
           IconButton(
             icon: Icon(Icons.info),
